@@ -1,0 +1,10 @@
+--- 
+layout: page 
+title: Speakers 
+---
+
+<div class="card-columns m-t-2">
+    {% for speaker in site.data.speakers %}
+        {% include speaker.html param=speaker variable-param=page.speaker %}
+    {% endfor %}
+</div>

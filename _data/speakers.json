@@ -1,0 +1,27 @@
+[
+    {
+        "id": "sidney-andrews",
+        "name": "Sidney Andrews",
+        "bio": "Azure MVP, Microsoft Certified Trainer (MCT) Regional Lead, Consultant and Lover of Hybrid Learning",
+        "company": "SeeSharpRun.NET",
+        "twitter": "sidney_andrews",
+        "website": "http://www.seesharprun.net",
+        "avatar": "/media/speakers/sidney-andrews.png"
+    },
+    {
+        "id": "kevin-griffin",
+        "name": "Kevin Griffin",
+        "bio": "Dad. Husband. Consultant. I help businesses push into the future via amazing technologies. Let me know if I can help your business.",
+        "twitter": "1kevgriff",
+        "website": "http://kevgriffin.com/",
+        "avatar": "/media/speakers/kevin-griffin.png"
+    },
+    {
+        "id": "g-andrew-duthie",
+        "name": "G. Andrew Duthie",
+        "bio": "Tech tweets from developer, trainer, and podcaster. Follow @CommMegaphone for events.",
+        "twitter": "devhammer",
+        "website": "http://devhammer.net/",
+        "avatar": "/media/speakers/g-andrew-duthie.png"
+    }
+]

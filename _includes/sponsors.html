@@ -1,0 +1,21 @@
+<p class="lead">
+    This Code Camp is made possible thanks to our sponsors:
+</p>
+
+{% for category in site.data.sponsors | jsonify %}
+    <h3 class="m-y-2">
+        {{category.level}}
+    </h3>
+    <div class="row">
+        {% for sponsor in category.sponsors %}
+        	<div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img class="card-img-top img-fluid m-x-auto m-y-1" style="height: 75px;" src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                    <div class="card-block text-xs-center card-inverse card-info">
+                        <a href="{{sponsor.url}}" title="{{sponsor.name}}" class="card-link">{{sponsor.name}}</a>
+                    </div>
+                </div>
+            </div>                
+        {% endfor %}
+    </div>
+{% endfor %}

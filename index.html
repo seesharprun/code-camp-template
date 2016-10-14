@@ -1,0 +1,76 @@
+--- 
+layout: default 
+title: Home 
+---
+
+<div class="jumbotron jumbotron-fluid bg-inverse">
+	<div class="container">
+		<h1 class="display-1">{{site.data.config.name}}</h1>
+		<div class="row">
+			<div class="col-sm-6 p-x-2 m-t-2">
+				<div class="row">
+					<div class="col-xs-1">
+						<h4>
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</h4>
+					</div>
+					<div class="col-xs-11">
+						<h4>
+							{{site.data.config.date}}
+						</h4>
+						<h5>
+							{{site.data.config.time}}
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 p-x-2 m-t-2">
+				<div class="row">
+					<div class="col-xs-1">
+						<h4>
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</h4>
+					</div>
+					<div class="col-xs-11">
+						<h4>
+							{{site.data.config.location.facility}}
+						</h4>
+						<h5>
+							{{site.data.config.location.city}}
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<main class="container">
+
+	<article id="about" class="m-y-3">
+		<blockquote class="blockquote">
+			<p class="m-b-0">
+				{{site.data.config.about}}
+			</p>
+		</blockquote>
+	</article>
+
+	<article id="registration" class="m-y-3">
+		<a href="{{site.data.config.registration}}" class="btn btn-primary btn-lg">Register for Code Camp!</a>
+	</article>
+
+	<article id="sponsors" class="m-y-3">
+		<h1 class="display-4">Sponsors</h1>
+		{% include sponsors.html %}
+	</article>
+
+	<article id="directions" class="m-y-3">
+		<h1 class="display-4">Directions</h1>
+		{% include directions.html %}
+	</article>
+
+</main>
+
+<footer>
+	{% include footer.html %}
+</footer>

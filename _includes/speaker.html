@@ -1,0 +1,39 @@
+<div class="card">
+    {% if speaker.avatar != nil %}
+        <img class="card-img-top img-fluid text-xs-center" src="{{speaker.avatar}}" alt="{{speaker.name}}">
+    {% endif %}
+    <div class="card-block">
+        <h4 class="card-title">
+            {{speaker.name}}      
+        </h4>  
+        {% if speaker.company != nil %}
+            <h6 class="card-subtitle text-muted m-b-1">
+                {{speaker.company}}
+            </h6>  
+        {% endif %}   
+        {% if speaker.bio != nil %}
+            <p class="card-text">
+                {{speaker.bio}}
+            </p>
+        {% endif %}
+    </div>
+    {% if speaker.website != nil %}
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <small>
+                    <a href="{{speaker.website}}" target="_blank">
+                        {{speaker.website}}
+                    </a>    
+                </small>
+            </li>
+        </ul>
+    {% endif %}
+    {% if speaker.twitter != nil %}
+        <div class="card-footer text-muted">
+            <a href="http://www.twitter.com/{{speaker.twitter}}" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-at" aria-hidden="true"></i>{{speaker.twitter}}
+            </a>
+        </div>
+    {% endif %}
+</div>

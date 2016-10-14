@@ -1,0 +1,15 @@
+{% if site.data.config.directions != nil %}
+    <figure class="figure">
+        {% if site.data.config.directions.embed != nil %}
+            {{site.data.config.directions.embed}}
+        {% endif %}
+        {% if site.data.config.directions.link != nil %}
+            <figcaption class="figure-caption">
+                <a href="{{site.data.config.directions.link}}" target="_blank" class="btn btn-link">                    
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Get Directions
+                </a>
+            </figcaption>
+        {% endif %}
+    </figure>
+{% endif %}
