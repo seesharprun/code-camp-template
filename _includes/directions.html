@@ -1,8 +1,10 @@
 {% if site.data.config.directions != nil %}
-    <figure class="figure">
-        {% if site.data.config.directions.embed != nil %}
+    {% if site.data.config.directions.embed != nil %}
+        <div class="embed-responsive embed-responsive-16by9">
             {{site.data.config.directions.embed}}
-        {% endif %}
+        </div>
+    {% endif %}
+    <figure class="figure">
         {% if site.data.config.directions.link != nil %}
             <figcaption class="figure-caption">
                 <a href="{{site.data.config.directions.link}}" target="_blank" class="btn btn-link">                    

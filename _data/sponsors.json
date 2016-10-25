@@ -1,6 +1,6 @@
 [
     {
-        "level": "Platinum Sponsors",
+        "level": "",
         "sponsors": [
             {
                 "name": "Microsoft",
@@ -8,34 +8,9 @@
                 "url": "http://www.microsoft.com"
             },
             {
-                "name": "Google",
-                "logo": "media/sponsors/google.png",
-                "url": "http://www.google.com"
-            }
-        ]
-    },
-    {
-        "level": "Silver Sponsors",
-        "sponsors": [
-            {
-                "name": "Amazon AWS",
-                "logo": "media/sponsors/aws.png",
-                "url": "http://aws.amazon.com"
-            },
-            {
-                "name": "Code Magazine",
-                "logo": "media/sponsors/code-magazine.png",
-                "url": "http://www.codemag.com"
-            },
-            {
-                "name": "Dice",
-                "logo": "media/sponsors/dice.png",
-                "url": "http://www.dice.com"
-            },
-            {
-                "name": "TechStars",
-                "logo": "media/sponsors/techstars.png",
-                "url": "http://www.techstars.com"
+                "name": "SeeSharpRun.NET",
+                "logo": "media/sponsors/seesharprun.png",
+                "url": "http://www.seesharprun.net"
             }
         ]
     }

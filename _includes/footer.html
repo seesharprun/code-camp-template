@@ -3,9 +3,9 @@
 		<div class="row">
 			<div class="col-sm-4 text-xs-left">
                 <h6>{{site.data.config.name}}</h6>
-                {{site.data.config.date}}
+                <em>{{site.data.config.date}}</em>
                 {% if site.data.config.location.facility != nil %}
-                    <br />{{site.data.config.location.facility}}
+                    <br /><strong>{{site.data.config.location.facility}}</strong>
                 {% endif %}
                 {% if site.data.config.location.street != nil %}
                     <br />{{site.data.config.location.street}}
