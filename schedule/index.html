@@ -1,89 +1,31 @@
-  <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
-    <div class="card-deck-wrapper hidden-xs-down">
-      <div class="card-deck">
-        <div class="card card-inverse card-primary text-xs-center">
-          <div class="card-block">
-            <h4 class="card-title">Room A</h4>
-          </div>
-        </div>
-        <div class="card card-inverse card-primary text-xs-center">
-          <div class="card-block">
-            <h4 class="card-title">Room B</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item font-weight-bold">9:00 - 9:45</li>
-    </ol>
-    <div class="card-deck-wrapper">
-      <div class="card-deck">
-        <div class="card">
-          <div class="card-header bg-primary text-white text-xs-center hidden-sm-up">
-            Room A
-          </div>
-          <img class="card-img-top img-fluid" src="http://foodtechconnect.com/wp-content/uploads/2014/08/MeredithMicale_-headshot-1.jpg" alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">In cupidatat consequat aute quis irure est elit ipsum. Reprehenderit tempor sint ipsum aliquip sunt do pariatur incididunt laboris mollit officia et amet. Ea et voluptate elit quis sunt anim nostrud cupidatat eiusmod incididunt do aute. Labore
-              fugiat anim pariatur eu est cillum mollit. Sit pariatur elit occaecat consectetur aliquip deserunt proident. Esse cillum ad nulla ea tempor officia anim do nostrud. Et sint qui consectetur qui sint irure dolore adipisicing aliquip culpa
-              reprehenderit id labore.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Example Presenter</li>
-          </ul>
-          <div class="card-block">
-            <a href="#" class="card-link">@twitter</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-primary text-white text-xs-center hidden-sm-up">
-            Room B
-          </div>
-          <img class="card-img-top img-fluid" src="http://wintechdesignllc.com/jesse_head.jpg" alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Qui enim aute sint aliquip sint est minim laborum nostrud. Occaecat duis commodo est culpa qui consequat ex laborum nulla duis. Est esse incididunt nulla amet. Esse cillum ad nulla ea tempor officia anim do nostrud. Et sint qui consectetur
-              qui sint irure dolore adipisicing aliquip culpa reprehenderit id labore. Qui enim aute sint aliquip sint est minim laborum nostrud. Occaecat duis commodo est culpa qui consequat ex laborum nulla duis. Est esse incididunt nulla amet.
-            </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Example Presenter</li>
-          </ul>
-          <div class="card-block">
-            <a href="#" class="card-link">@twitter</a>
-          </div>
-        </div>
-      </div>
-    </div>
+--- 
+layout: page 
+title: Sessions 
+---
 
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item font-weight-bold">10:00 - 10:45</li>
-    </ol>
-    <div class="card-deck-wrapper">
-      <div class="card-deck">
-        <div class="card">
-          <div class="card-header bg-primary text-white text-xs-center hidden-sm-up">
-            Room A
-          </div>
-          <img class="card-img-top img-fluid" src="http://foodtechconnect.com/wp-content/uploads/2014/08/MeredithMicale_-headshot-1.jpg" alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+<!-- TODO/BUG: Sessions are NOT in correct TRACK Order
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 m-t-3">
+	<div class="card-deck-wrapper hidden-xs-down">
+		<div class="card-deck">
+            {% for track in site.data.tracks | sort: 'order' %}
+                <div class="card card-inverse card-primary text-xs-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
+                            {{track.title}}
+                            <br />
+                            <small>{{track.location}}</small>
+                        </h4>
+                        <p class="card-text">{{track.description}}</p>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-        <div class="card">
-          <div class="card-header bg-primary text-white text-xs-center hidden-sm-up">
-            Room B
-          </div>
-          <img class="card-img-top img-fluid" src="http://wintechdesignllc.com/jesse_head.jpg" alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+    {% for slot in site.data.slots %}
+        {% include slot.html param=slot variable-param=page.slot %}
+    {% endfor %}
+</div>
+-->
+<p class="lead">
+    Event Schedule Coming Soon
+</p>

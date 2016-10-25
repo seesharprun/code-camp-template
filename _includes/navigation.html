@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-primary">
 	<div class="container">
-		<a class="navbar-brand" href="http://campazure.com/">
+		<a class="navbar-brand" href="/">
 			<img src="/media/icon-inverse.png" width="30" height="30" class="d-inline-block align-top" alt="Camp Azure Icon" />
 			&nbsp;
 			{{site.data.config.name}}
@@ -12,7 +12,7 @@
 					{% assign active = 'active' %}
 				{% endif %}
 				<li class="nav-item {{active}}">
-					<a class="nav-link" href="http://campazure.com{{link.url}}">{{link.text}}</a>
+					<a class="nav-link" href="{{link.url}}">{{link.text}}</a>
 				</li>
 			{% endfor %}
 		</ul>

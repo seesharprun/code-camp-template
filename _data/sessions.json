@@ -1,21 +1,30 @@
 [
     {
         "title": "The Distinguished Developer's Guide to Becoming a Github Connoisseur",
-        "location": "Room 3058",
         "description": "What is the first thing you think about when someone mentions GitHub? If you say \"it's just online Git\", than you are missing out on a lot of the greatest features of GitHub. In this talk, we are going to look at some of the features of GitHub that can change the way you use the site. We are going to spend time learning how GitHub pages allows you to create a free website for your open-source projects, than we are going to look at Markdown and how you can use it to build documents, documentation and notes, We are also going to look at the \"GitHub Flow\" and see how an open-source project manages contributions from collaborators while still following sensible best practices. We will finally wrap up by looking at real-world projects hosted on GitHub and how the various tools (like Pull Requests, Issues and Testing) work together to go beyond just an \"online Git\" platform.",
         "speaker": "sidney-andrews",
-        "track": "cloud-platform"
+        "track": "data-solutions",
+        "slot": "nine-am"
+    },
+    {
+        "title": "The Distinguished Developer's Guide to Becoming a Github Connoisseur",
+        "description": "What is the first thing you think about when someone mentions GitHub? If you say \"it's just online Git\", than you are missing out on a lot of the greatest features of GitHub. In this talk, we are going to look at some of the features of GitHub that can change the way you use the site. We are going to spend time learning how GitHub pages allows you to create a free website for your open-source projects, than we are going to look at Markdown and how you can use it to build documents, documentation and notes, We are also going to look at the \"GitHub Flow\" and see how an open-source project manages contributions from collaborators while still following sensible best practices. We will finally wrap up by looking at real-world projects hosted on GitHub and how the various tools (like Pull Requests, Issues and Testing) work together to go beyond just an \"online Git\" platform.",
+        "speaker": "sidney-andrews",
+        "track": "data-solutions",
+        "slot": "ten-am"
     },
     {
         "title": "ASP.NET Development Without Windows",
         "description": "Since the introduction of ASP.NET in the early 2000's, the recipe for deploying ASP.NET-based applications has stayed the same. Develop your code with Visual Studio on Windows, and deploy your applications to IIS on Windows Server. While a few alternative deployment strategies existed, the common recipe required WINDOWS and VISUAL STUDIO. With the uprising of Linux-based servers and services, what if you could develop your ASP.NET applications within Ubuntu or on a Mac and then deploy on to Linux? Lower your cost of ownership. Increase your deployment speed. Open your development teams to a new world of tooling that has never existed on Windows. In this presentation, Kevin Griffin will guide you through the tools and workflows of developing an ASP.NET Core application on Ubuntu and eventually deploying to a Linux-based server in real time. Absolutely no Windows within the workflow!",
         "speaker": "kevin-griffin",
-        "track": "modern-web"
+        "track": "modern-applications",
+        "slot": "nine-am"
     },
     {
         "title": "Build Cross-platform Desktop Apps with Electron",
         "description": "The Electron project, created by Github as part of their Atom editor, allows developers to build quality cross-platform desktop applications using HTML, CSS, and JavaScript. Dozens of apps, including well-known apps like Slack, Atom, Visual Studio Code, and Yeoman app, are built on top of Electron. For developers experienced with HTML, CSS, and JavaScript, Electron provides a simple and effective way to package functionality as a desktop app. In this session, attendees will get an introduction to Electron, and see some simple examples of how to build a UI for an Electron app, add menu commands, and store and retrieve preferences. Learn how to package and deploy apps for Windows, Linux, and Mac.",
         "speaker": "g-andrew-duthie",
-        "track": "modern-web"
+        "track": "modern-applications",
+        "slot": "ten-am"
     }
 ]
