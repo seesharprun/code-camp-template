@@ -3,11 +3,11 @@ layout: default
 title: Home 
 ---
 
-<div class="jumbotron jumbotron-fluid bg-inverse">
+<div class="jumbotron jumbotron-fluid bg-inverse text-white">
 	<div class="container">
 		<img src="/media/logo-inverse.png" alt="{{site.data.config.name}}" class="img-fluid" />
 		<div class="row">
-			<div class="col-sm-6 p-x-2 m-t-2">
+			<div class="col-sm-6 px-2 mt-2">
 				<div class="row">
 					<div class="col-xs-1">
 						<h4>
@@ -24,7 +24,7 @@ title: Home
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 p-x-2 m-t-2">
+			<div class="col-sm-6 px-2 mt-2">
 				<div class="row">
 					<div class="col-xs-1">
 						<h4>
@@ -47,24 +47,24 @@ title: Home
 
 <main class="container">
 
-	<article id="about" class="m-y-3">
+	<article id="about" class="my-3">
 		<blockquote class="blockquote">
-			<p class="m-b-0">
+			<p class="mb-0">
 				{{site.data.config.about}}
 			</p>
 		</blockquote>
 	</article>
 
-	<article id="registration" class="m-y-3">
+	<article id="registration" class="my-3">
 		<tito-widget event="azure-community/camp-azure-rva-fall16"></tito-widget>
 	</article>
 
-	<article id="sponsors" class="m-y-3">
+	<article id="sponsors" class="my-3">
 		<h1 class="display-4">Sponsors</h1>
 		{% include sponsors.html %}
 	</article>
 
-	<article id="directions" class="m-y-3">
+	<article id="directions" class="my-3">
 		<h1 class="display-4">Directions</h1>
 		{% include directions.html %}
 	</article>
