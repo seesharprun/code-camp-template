@@ -3,29 +3,9 @@ layout: page
 title: Sessions 
 ---
 
-<!-- TODO/BUG: Sessions are NOT in correct TRACK Order
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3">
-	<div class="card-deck-wrapper hidden-xs-down">
-		<div class="card-deck">
-            {% for track in site.data.tracks | sort: 'order' %}
-                <div class="card card-inverse card-primary text-xs-center">
-                    <div class="card-block">
-                        <h4 class="card-title">
-                            {{track.title}}
-                            <br />
-                            <small>{{track.location}}</small>
-                        </h4>
-                        <p class="card-text">{{track.description}}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% for slot in site.data.slots %}
+<div class="col-xl-10 offset-xl-1 col-lg-12 mt-3">
+    {% assign sorted_slots = (site.data.slots | sort: 'order') %}
+    {% for slot in sorted_slots %}
         {% include slot.html param=slot variable-param=page.slot %}
     {% endfor %}
 </div>
--->
-<p class="lead">
-    Event Schedule Coming Soon
-</p>

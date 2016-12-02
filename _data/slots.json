@@ -1,10 +1,42 @@
-[
-    {
-        "id": "nine-am",
-        "title": "9:00 - 9:50 AM"
-    },
-    {
-        "id": "ten-am",
-        "title": "10:00 - 10:50 AM"
-    }
+[  
+	{  
+		"id": "closing",
+		"order": "7",
+		"title": "3:00 - 4:00 PM"
+	},
+	{  
+		"id": "welcome",
+		"order": "1",
+		"title": "9:30 - 9:50 AM"
+	},
+	{  
+		"id": "registration",
+		"order": "0",
+		"title": "9:00 - 9:30 AM"
+	},
+	{  
+		"id": "two-pm",
+		"order": "6",
+		"title": "2:00 - 2:50 PM"
+	},
+	{  
+		"id": "eleven-am",
+		"order": "3",
+		"title": "11:00 - 11:50 AM"
+	},
+	{  
+		"id": "lunch",
+		"order": "4",
+		"title": "12:00 - 12:50 AM"
+	},
+	{  
+		"id": "one-pm",
+		"order": "5",
+		"title": "1:00 - 1:50 PM"
+	},
+	{  
+		"id": "ten-am",
+		"order": "2",
+		"title": "10:00 - 10:50 AM"
+	}
 ]

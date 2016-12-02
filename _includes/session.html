@@ -1,20 +1,22 @@
+{% for speaker in site.data.speakers %}
+    {% if speaker.id == session.speaker %}
+            <div class="card">
+                <img src="{{speaker.avatar}}" alt="{{speaker.name}}" class="card-img-top img-fluid">
+                <div class="card-block">
+                    <strong>
+                        Presenter:&nbsp;
+                    </strong>
+                    <a href="/speakers#{{speaker.id}}" title="{{speaker.name}}" class="btn btn-secondary btn-sm">
+                        {{speaker.name}}
+                        {% if speaker.company != nil %}
+                            [{{speaker.company}}]
+                        {% endif %} 
+                    </a>
+                </div>
+            </div>
+    {% endif %}
+{% endfor %}
 <div class="card">
-    <div class="card-header bg-primary text-white text-xs-center hidden-sm-up">
-        {% for slot in site.data.slots %}
-            {% if slot.id == session.slot %}
-                {% for tracks in site.data.tracks %}
-                    {% if track.id == slot.track %}
-                        {{track.location}}
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-    </div>
-    {% for speaker in site.data.speakers %}
-        {% if speaker.id == session.speaker %}
-            <img class="card-img-top img-fluid" src="{{speaker.avatar}}" alt="{{speaker.name}}">
-        {% endif %}
-    {% endfor %}
     <div class="card-block">
         <h4 class="card-title">
             {{session.title}}
@@ -22,15 +24,5 @@
         <p class="card-text">
             {{session.description}} 
         </p>
-        {% for speaker in site.data.speakers %}
-            {% if speaker.id == session.speaker %}
-                <strong>
-                    Presenter:
-                </strong>
-                <a href="/speakers#{{speaker.id}}" title="{{speaker.name}}">
-                    {{speaker.name}}
-                </a>
-            {% endif %}
-        {% endfor %}
     </div>
 </div>

@@ -11,6 +11,11 @@
                 "name": "SeeSharpRun.NET",
                 "logo": "media/sponsors/seesharprun.png",
                 "url": "http://www.seesharprun.net"
+            },
+            {
+                "name": "CapTech",
+                "logo": "media/sponsors/captech.png",
+                "url": "http://www.captechconsulting.com/"
             }
         ]
     }
