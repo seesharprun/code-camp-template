@@ -16,6 +16,11 @@
                 "name": "CapTech",
                 "logo": "media/sponsors/captech.png",
                 "url": "http://www.captechconsulting.com/"
+            },
+            {
+                "name": "SQL Data Partners",
+                "logo": "media/sponsors/sqldatapartners.png",
+                "url": "http://sqldatapartners.com/"
             }
         ]
     }
