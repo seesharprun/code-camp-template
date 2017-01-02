@@ -11,7 +11,7 @@
     {
         "title": "Understanding Azure Functions and Azure’s Approach to Serverless Computing",
         "description": "Serverless computing provides some interesting advantages to existing application platform architectures (VMs, Containers, etc).   Azure Functions competes with AWS Lambda and Google Cloud Functions (among others) to provide serverless computing.  In this session we will discuss the pros and cons of serverless computing and highlight the unique features of Azure and Azure Functions as a platform.   We will discuss the tooling (CI & CD) and approach to building these solutions and provide some examples.",
-        "speaker": "kyle-wilson",
+        "speaker": "sidney-andrews",
         "slot": "ten-am"
     },
     {
