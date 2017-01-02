@@ -4,7 +4,7 @@
     </li>
 </ol>
 
-<div class="card-group">
+<div id="{{slot.id}}" class="card-group">
         {% for session in site.data.sessions %}
             {% if slot.id == session.slot %}
                 {% include session.html param=session variable-param=page.session %}
