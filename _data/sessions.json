@@ -1,42 +1,50 @@
 [
     {
+        "id": "registration",
         "title": "Registration",
         "slot": "registration"
     },
     {
+        "id": "welcome",
         "title": "Welcome",
         "description": "We will start the day with a quick welcome from our sponsors and an overview of what we are going to learn today!",
         "slot": "welcome"
     },
     {
+        "id": "serverless-functions",
         "title": "Understanding Azure Functions and Azure’s Approach to Serverless Computing",
         "description": "Serverless computing provides some interesting advantages to existing application platform architectures (VMs, Containers, etc).   Azure Functions competes with AWS Lambda and Google Cloud Functions (among others) to provide serverless computing.  In this session we will discuss the pros and cons of serverless computing and highlight the unique features of Azure and Azure Functions as a platform.   We will discuss the tooling (CI & CD) and approach to building these solutions and provide some examples.",
         "speaker": "sidney-andrews",
         "slot": "ten-am"
     },
     {
+        "id": "mongodb",
         "title": "5 Years of MongoDB at Snagajob: A Giant Idea to Scaling The Worker Universe",
         "description": "5 Years ago, the Snagajob website ran on a single server (monolithic) relational database platform. Though the site ran stable and with excellent performance the challenge was to keep it that way while the growth of the site was actually accelerating.  Scaling the Snagajob site essentially came down to scaling the OLTP data tier. At that point in time, the only option to scale the data tier was to scale up, i.e. deploy bigger and better infrastructure. Our concern was that the site was growing faster than scaling up would be able to support, and in hindsight, we were right. Today, Snagajob is America’s largest network for workers and employers in the hourly employment space. Join me to learn how MongoDB, the most popular open source document database, helped Snagajob to scale to 75 million members, up to 750 000 unique daily visitors, and 1 million new members every single month.",
         "speaker": "robert-fehrmann",
         "slot": "eleven-am"
     },
     {
+        "id": "lunch",
         "title": "Lunch & Networking",
         "slot": "lunch"
     },
     {
+        "id": "arm-portal",
         "title": "Building Declarative, Scriptable and Repeatable Application Deployments to Azure from Anywhere",
         "description": "You may have heard about a new generation of Azure services named Azure Resource Manager, but ARM means more than just a shiny new portal. ARM allows you to represent each Azure service instance as a resource and build it using simple JSON templates. With a template, you can deploy a carbon copy of your application between prod and test environments, on dev and corporate subscriptions and even shared with the world. In this session, we will walk through the steps required to create Azure service instances using these JSON-based templates. We will also look at how you can deploy these templates using the portal, CLI or cross-platform IDE. Once we are done, you will have the confidence to template your proof of concept and production applications so that they can be deployed anytime and anywhere.",
         "speaker": "sidney-andrews",
         "slot": "one-pm"
     },
     {
+        "id": "xplat-search",
         "title": "A Cross-Platform Introduction to Azure Search",
         "description": "As your application needs grow, it might be ideal to have a robust, frictionless search mechanism at your fingertips.  With Azure Search, you are provide with \"Search-As-A-Service\".  Migrate your data, and index it is quickly with the full power of the Azure cloud.  Access your searches with Azure's easy to use RESTful services.  In this presentation, we will look at how to stand up Azure Search, migrate in your data, and the quickly pull your data back out in a sane way.",
         "speaker": "kevin-griffin",
         "slot": "two-pm"
     },
     {
+        "id": "closing",
         "title": "Closing & Raffle",
         "description": "Join us as we raffle off prizes from our various sponsors and close our day by networking with various Azure colleagues.",
         "slot": "closing"
