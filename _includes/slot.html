@@ -1,0 +1,13 @@
+<ol id="{{slot.id}}" class="breadcrumb mt-2">
+    <li class="breadcrumb-item font-weight-bold">
+        {{slot.title}}
+    </li>
+</ol>
+
+<div class="card-group">
+        {% for session in site.data.sessions %}
+            {% if slot.id == session.slot %}
+                {% include session.html param=session variable-param=page.session %}
+            {% endif %}
+        {% endfor %}
+</div>

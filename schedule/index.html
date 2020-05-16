@@ -1,0 +1,11 @@
+--- 
+layout: page 
+title: Sessions 
+---
+
+<div class="col-xl-10 offset-xl-1 col-lg-12 mt-3">
+    {% assign sorted_slots = (site.data.slots | sort: 'order') %}
+    {% for slot in sorted_slots %}
+        {% include slot.html param=slot variable-param=page.slot %}
+    {% endfor %}
+</div>

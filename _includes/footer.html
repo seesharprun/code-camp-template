@@ -1,11 +1,11 @@
-<div class="jumbotron jumbotron-fluid m-b-0">
+<div class="jumbotron jumbotron-fluid mb-0 py-1">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 text-xs-left">
-                <h6>{{site.data.config.name}}</h6>
-                {{site.data.config.date}}
+			<div class="col-sm-4 text-xs-center text-sm-left">
+                <h6 class="mt-1">{{site.data.config.name}}</h6>
+                <em>{{site.data.config.date}}</em>
                 {% if site.data.config.location.facility != nil %}
-                    <br />{{site.data.config.location.facility}}
+                    <br /><strong>{{site.data.config.location.facility}}</strong>
                 {% endif %}
                 {% if site.data.config.location.street != nil %}
                     <br />{{site.data.config.location.street}}
@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-sm-4 text-xs-center">
                 {% if site.data.config.social != nil %}
-                    <h6>Social Media</h6>
+                    <h6 class="mt-1">Social Media</h6>
                     <ul class="list-group">                    
                         {% for item in site.data.config.social %}
                             <li class="list-group-item">                                
@@ -33,14 +33,16 @@
                         {% endfor %}
                     </ul>
                 {% endif %}
+                <h6 class="mt-1">In Collaboration With:</h6>
+                <img src="/media/revolutionva_alt.png" alt="Revolution VA" class="img-fluid mb-1" />      
 			</div>
-			<div class="col-sm-4 text-xs-right">
-                <h6>
+			<div class="col-sm-4 text-xs-center text-sm-right">
+                <h6 class="mt-1">
                     <i class="fa fa-github" aria-hidden="true"></i>
                     Fork on GitHub
                 </h6>   
-                <a href="http://github.com/seesharprun/code-camp-template" target="_blank">    
-                    seesharprun/code-camp-template
+                <a href="http://github.com/campazure/campazure.github.io" target="_blank">
+                    http://github.com/campazure
                 </a>
 			</div>
 		</div>

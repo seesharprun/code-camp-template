@@ -1,27 +1,41 @@
 [
     {
+        "id": "kevin-griffin",
+        "name": "Kevin Griffin",
+        "bio": "Kevin Griffin is an author, teacher, mentor, and consultant focusing in software development.  He is the author of the Twilio Blueprint (http://twilioblueprint.com).  As an independent consultant, Kevin specializes in helping businesses push their technology stacks into the 21st century. You can often find Kevin speaking at conferences and user groups across the country or blogging at http://kevgriffin.com.",
+        "twitter": "1kevgriff",
+        "company": "Swift Kick",
+        "company_url": "http://swiftkick.in/",
+        "website": "http://kevgriffin.com/",
+        "avatar": "/media/speakers/kevin-griffin.png",
+        "order": "2"
+    },
+    {
+        "id": "robert-fehrmann",
+        "name": "Robert Fehrmann",
+        "bio": "Robert Fehrmann is a principal Architect at Snagajob, a web based startup located in Richmond VA. Most recently Robert and his team have re-invented Snagajobs data platform from a pre-webscale monolithic data architecture to a horizontally scalable, high performance platform using Looker/Snowflake/Hadoop/MongoDB. Previously Robert has worked in consulting as well as multi-national companies in Europe and the US designing and building data centric applications ranging from financials to factory floor automation. Robert earned a Masters degree in Computer Science at the Technical University of Braunschweig, Germany, specializing in database management and parallel compute technologies. Robert a frequent speaker at several Meetups in the Richmond area and co-founder for the Richmond based MongoDB and DevOpsRVA Meetup groups.",
+        "twitter": "RFehrmann",
+        "company": "Snagajob",
+        "company_url": "http://www.snagajob.com/",
+        "avatar": "/media/speakers/robert-fehrmann.png",
+        "order": "0"
+    },
+    {
         "id": "sidney-andrews",
         "name": "Sidney Andrews",
-        "bio": "Azure MVP, Microsoft Certified Trainer (MCT) Regional Lead, Consultant and Lover of Hybrid Learning",
+        "bio": "Sidney Andrews is an Azure MVP and Microsoft Certified Trainer with SeeSharpRun.NET. He has a background in ASP.NET web development along with extensive experience developing applications using XAML. Sidney has driven efforts to develop and deliver Azure readiness training through channels such as the Ignite Conference, Microsoft Virtual Academy, Microsoft Official Courseware, internal Microsoft training and even public whitepapers. Sidney is the author of multiple free, online courses on XAML, Cloud and Web development on edX.org. Sidney also leads efforts to open-source traditional classroom training for Azure using GitHub.",
         "company": "SeeSharpRun.NET",
         "twitter": "sidney_andrews",
         "website": "http://www.seesharprun.net",
-        "avatar": "/media/speakers/sidney-andrews.png"
+        "avatar": "/media/speakers/sidney-andrews.png",
+        "order": "3"
     },
     {
-        "id": "kevin-griffin",
-        "name": "Kevin Griffin",
-        "bio": "Dad. Husband. Consultant. I help businesses push into the future via amazing technologies. Let me know if I can help your business.",
-        "twitter": "1kevgriff",
-        "website": "http://kevgriffin.com/",
-        "avatar": "/media/speakers/kevin-griffin.png"
-    },
-    {
-        "id": "g-andrew-duthie",
-        "name": "G. Andrew Duthie",
-        "bio": "Tech tweets from developer, trainer, and podcaster. Follow @CommMegaphone for events.",
-        "twitter": "devhammer",
-        "website": "http://devhammer.net/",
-        "avatar": "/media/speakers/g-andrew-duthie.png"
+        "id": "kyle-wilson",
+        "name": "Kyle Wilson",
+        "bio": "Kyle Wilson has been working with Microsoft technologies for over 17 years.  He spent a long time in the consulting world helping customers adopt collaboration portals and other web technologies before joining Microsoft ~3 years ago.  He currently works as an Azure technical solutions specialist helping customers and partners digitally transform their businesses with Azure based services.",
+        "company": "Microsoft",
+        "avatar": "/media/speakers/kyle-wilson.png",
+        "order": "1"
     }
 ]

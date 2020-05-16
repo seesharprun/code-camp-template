@@ -1,26 +1,28 @@
-<li class="list-group-item">
-    <h3 class="list-group-item-heading">
-        {{session.title}}
-    </h3>
-    {% if session.location != nil %}
-        <h5>
-            {{session.location}}
-        </h5>
-    {% endif %}
-    <p class="list-group-item-text">
-        {{session.description}}    
-    </p>
-    {% for speaker in site.data.speakers %}
-        {% if speaker.id == session.speaker %}
-            <div class="row">
-                <div class="col-sm-2">
-                    <img src="/code-camp-template{{speaker.avatar}}" alt="{{speaker.name}}" style="height: 100px;" class="img-circle img-fluid">
-                </div>
-                <div class="col-sn-10">
-                    <h6>{{speaker.name}}</h6>
-                    <p>{{speaker.bio}}</p>
+{% for speaker in site.data.speakers %}
+    {% if speaker.id == session.speaker %}
+            <div class="card">
+                <img src="{{speaker.avatar}}" alt="{{speaker.name}}" class="card-img-top img-fluid">
+                <div class="card-block">
+                    <strong>
+                        Presenter:&nbsp;
+                    </strong>
+                    <a href="/speakers#{{speaker.id}}" title="{{speaker.name}}" class="btn btn-secondary btn-sm">
+                        {{speaker.name}}
+                        {% if speaker.company != nil %}
+                            [{{speaker.company}}]
+                        {% endif %} 
+                    </a>
                 </div>
             </div>
-        {% endif %}
-    {% endfor %}
-</li>
+    {% endif %}
+{% endfor %}
+<div class="card">
+    <div class="card-block">
+        <h4 id="{{session.id}}" class="card-title">
+            {{session.title}}
+        </h4>
+        <p class="card-text">
+            {{session.description}} 
+        </p>
+    </div>
+</div>

@@ -3,19 +3,23 @@
 </p>
 
 {% for category in site.data.sponsors | jsonify %}
-    <h3 class="m-y-2">
+    <h3 class="my-2">
         {{category.level}}
     </h3>
     <div class="row">
         {% for sponsor in category.sponsors %}
         	<div class="col-sm-6 col-md-4">
                 <div class="card">
-                    <img class="card-img-top img-fluid m-x-auto m-y-1" style="height: 75px;" src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                    <img class="card-img-top img-fluid my-1" src="{{sponsor.logo}}" alt="{{sponsor.name}}">
                     <div class="card-block text-xs-center card-inverse card-info">
-                        <a href="{{sponsor.url}}" title="{{sponsor.name}}" class="card-link">{{sponsor.name}}</a>
+                        <a href="{{sponsor.url}}" title="{{sponsor.name}}" class="card-link" target="_blank">{{sponsor.name}}</a>
                     </div>
                 </div>
             </div>                
         {% endfor %}
     </div>
+    <h4>Interested in Sponsoring?</h4>
+    <p>
+        Reach out to us at <a href="mailto:organizers@campazure.com?subject=Sponsoring RVA Camp Azure">organizers@campazure.com</a>
+    </p>
 {% endfor %}

@@ -1,26 +1,23 @@
 {
-    "name": "Example Code Camp",
-    "date": "Friday January 17, 2020",
-    "time": "9:00 AM - 5:00 PM (EST)",
-    "about": "CodeCamp is a FREE community event for developers, by developers. Our CodeCamp allows local developers to network and learn from peers and community experts on a wide range of development platforms and languages.",
+    "name": "Camp Azure",
+    "social-title": "Camp Azure - RVA 2016",
+    "date": "Friday December 16, 2016",
+    "time": "9:00 AM - 4:00 PM (EST)",
+    "about": "Camp Azure is a FREE event that allows local professionals to network with their peers and learn from community experts about the latest innovations in OSS and cross-platform Azure solutions.",
     "location": {
-        "facility": "Microsoft Technology Center",
-        "street": "11 Times Square",
-        "street2": "7th Floor",
-        "city": "New York, NY"
+        "facility": "Microsoft Richmond",
+        "street": "4301 Dominion Blvd",
+        "street2": "Suite 200",
+        "city": "Glen Allen, VA 23060"
     },
     "directions": {
-        "link": "https://goo.gl/maps/XN9ncSqtucE2",
-        "embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2429657327957!2d-73.99183758459368!3d40.75668057932708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25856e81cdc7d%3A0xcb6b70d1bb597301!2sMicrosoft+Technology+Center!5e0!3m2!1sen!2sus!4v1476412055774\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+        "link": "https://goo.gl/maps/7G48NLk4avB2",
+        "embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.8526127313066!2d-77.58639848468583!3d37.65266897978185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b16a98a0e00f89%3A0x455825707e1d3530!2sMicrosoft+Corporation!5e0!3m2!1sen!2sus!4v1477404000782\" width=\"1600\" height=\"900\" style=\"border:0\" allowfullscreen></iframe>"
     },
-    "registration": "https://en.wikipedia.org/wiki/Code_Camp",
+    "registration": "https://ti.to/azure-community/camp-azure-rva-fall16/en/registrations",
     "social": [
         {
-            "link": "https://www.facebook.com/Microsoft",
-            "network": "facebook"
-        },
-        {
-            "link": "https://twitter.com/microsoft",
+            "link": "https://twitter.com/azurebootcamps",
             "network": "twitter"
         }
     ]

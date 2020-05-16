@@ -1,20 +1,23 @@
 <nav class="navbar navbar-dark bg-primary">
 	<div class="container">
-		<a class="navbar-brand" href="https://seesharprun.github.io/code-camp-template/">
-			<i class="fa fa-code" aria-hidden="true"></i>
-			&nbsp;
-			{{site.data.config.name}}
-		</a>
-		<ul class="nav navbar-nav">
-			{% for link in site.data.navigation %}
-				{% assign active = nil %}
-				{% if page.url == link.url %}
-					{% assign active = 'active' %}
-				{% endif %}
-				<li class="nav-item {{active}}">
-					<a class="nav-link" href="https://seesharprun.github.io/code-camp-template{{link.url}}">{{link.text}}</a>
-				</li>
-			{% endfor %}
-		</ul>
+		<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+  		<div class="collapse navbar-toggleable-md" id="navbarResponsive">
+			<a class="navbar-brand" href="/">
+				<img src="/media/icon-inverse.png" width="30" height="30" class="d-inline-block align-top" alt="Camp Azure Icon" />
+				&nbsp;
+				{{site.data.config.name}}
+			</a>
+			<ul class="nav navbar-nav">
+				{% for link in site.data.navigation %}
+					{% assign active = nil %}
+					{% if page.url == link.url %}
+						{% assign active = 'active' %}
+					{% endif %}
+					<li class="nav-item {{active}}">
+						<a class="nav-link" href="{{link.url}}">{{link.text}}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </nav>

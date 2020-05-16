@@ -1,10 +1,16 @@
-{
-    "cloud-platform": {
-        "title": "Cloud Platform",
-        "description": "82 percent of businesses drive innovation by blending their on-premises infrastructure with the cloud. The modern cloud platform is focused on creatign consistency between on-premise services and their counterparts in the cloud while maintaining the agility that the cloud offers out of the box."
+[
+    {
+        "id": "data-solutions",
+        "title": "Data Solutions",
+        "location": "Small Room",
+        "order": "2",
+        "description": "Duis in congue tortor, vel posuere est. In ut nisi faucibus, cursus erat ac, fermentum nunc."
     },
-    "modern-web": {
-        "title": "Modern Web",
-        "description": "The modern web is composed of many open source web framework for building modern web applications and services. With frameworks like Angular, ASP.NET and Node; you can quickly create web sites using the well-understood standards of HTML, CSS and JavaScript. The websites can then scale to millions of users and easily add more complex capabilities like APIs, forms or real time communications."
+    {
+        "id": "modern-applications",
+        "title": "Modern Applications",
+        "location": "Large Room",
+        "order": "1",
+        "description": "Pellentesque fringilla justo a erat blandit, vel dapibus turpis elementum. Nam vel finibus nisl, vitae egestas arcu."
     }
-}
+]

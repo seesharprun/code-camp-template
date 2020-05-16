@@ -1,15 +1,19 @@
-<div class="card">
+<div class="card" id="{{speaker.id}}">
     {% if speaker.avatar != nil %}
-        <img class="card-img-top img-fluid text-xs-center" src="/code-camp-template{{speaker.avatar}}" alt="{{speaker.name}}">
+        <img class="card-img-top img-fluid" src="{{speaker.avatar}}" alt="{{speaker.name}}">
     {% endif %}
     <div class="card-block">
-        <h4 class="card-title">
+        <h4 id="{{speaker.id}}" class="card-title">
             {{speaker.name}}      
         </h4>  
         {% if speaker.company != nil %}
-            <h6 class="card-subtitle text-muted m-b-1">
-                {{speaker.company}}
-            </h6>  
+            <h6 class="card-subtitle text-muted mb-1">
+                {% if speaker.company_url != nil %}
+                    <a href="{{speaker.company_url}}" target="_blank">{{speaker.company}}</a>
+                {% else %}
+                    {{speaker.company}}
+                {% endif %}  
+            </h6>   
         {% endif %}   
         {% if speaker.bio != nil %}
             <p class="card-text">
@@ -32,7 +36,7 @@
         <div class="card-footer text-muted">
             <a href="http://www.twitter.com/{{speaker.twitter}}" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-at" aria-hidden="true"></i>{{speaker.twitter}}
+                {{speaker.twitter}}
             </a>
         </div>
     {% endif %}
